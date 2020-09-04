@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
+<manifest>
+
+  <!-- Remove Projects -->
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <remove-project name="AOSPA/android_vendor_pa-biometrics-face" />
+
+  <!-- Projects from my github -->
+  <project name="AOSPA-custom/android_frameworks_base" path="frameworks/base" remote="github" revision="quartz-custom" />
+  <project name="AOSPA-custom/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="quartz-custom" />
+  <project name="AOSPA-custom/android_vendor_pa" path="vendor/pa" remote="github" revision="quartz-custom" />
+  <project name="AOSPA-custom/android_vendor_pa-biometrics-face" path="vendor/pa/biometrics-face" remote="github" revision="quartz-custom" />
+  <project name="AOSPA-custom/device_twrp_black" path="recovery/twrp/device/oneplus/oneplus6" remote="github" revision="quartz-custom" />
+
+</manifest>
