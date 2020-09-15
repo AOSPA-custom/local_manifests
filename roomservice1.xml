@@ -16,4 +16,5 @@
   <project name="AOSPA-custom/device_twrp_black" path="recovery/twrp/device/oneplus/oneplus6" remote="github" revision="quartz-custom" />
   <project name="AOSPA-custom/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="quartz-custom" />
   <project name="AOSPA-custom/android_frameworks_support_lottie" path="frameworks/support/lottie" remote="github" revision="quartz-custom" />
+  <project name="AOSPA-custom/android_vendor_support" path="vendor/support" remote="github" revision="quartz-custom" />
 </manifest>
